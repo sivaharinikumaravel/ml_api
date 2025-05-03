@@ -12,7 +12,7 @@ import os
 app = Flask(__name__)
 
 # Use raw strings or forward slashes for Windows paths
-model_path = r'C:\Users\sivah\OneDrive\Desktop\consal\new\Inventory___management\server\ml_api\festival_demand_model.pkl'
+model_path = r'festival_demand_model.pkl'
 model = joblib.load(model_path)
 
 df = pd.read_csv("festival_data_modified.csv")

@@ -2,4 +2,4 @@ flask
 joblib
 scikit-learn
 gunicorn
-pip install flask joblib pandas matplotlib
+
